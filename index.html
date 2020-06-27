@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="./otherfiles/index.css">
+<link rel="shortcut icon" type="image/x-icon" href="asserts/favicon.ico">
+
+    <title>Love Calculater</title>
+  </head>
+  <body>
+    <audio id="my">
+      
+      <source src="./otherfiles/loveme.mpeg" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    
+<section id="header" >
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#fdcfdc;">
+        <img src="./asserts/hd1.png" style="display: inline-block;" height="50px" width="50px" alt="">
+        <a class="navbar-brand" style="font-family: cursive; color:#C70039; font-size: larger;" href="#"><h2 style="display: inline-block;">Love Calculater</h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto w-auto"  >
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" style="font-family: cursive; color:#C70039; font-size: larger;"><h3 style="display: inline-block;" >Home</h3><span class="sr-only">(current)</span></a>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item" >
+              <a class="nav-link" style="font-family: cursive; color:#C70039; font-size: larger;" href="./otherfiles/tip.html"><h3 style="display: inline-block;">Love Tips</h3></a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link" style="font-family: cursive; color:#C70039; font-size: larger;" href="https://tinder.com/?lang=en"><h3 style="display: inline-block;">Tinder</h3></a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link" style="font-family: cursive; color:#C70039; font-size: larger;" href="./otherfiles/about.html"><h3 style="display: inline-block;">About</h3></a>
+            </li>
+            
+           
+          </ul>
+         
+        </div>
+      
+      </nav>
+</section>    
+
+    <section id="body">
+      
+        <div class="container" >
+          <div class="row" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
+          <br>
+          
+              <div class="col-lg-12 col-md-3 col-sm-2 text-center">
+        <img src="./asserts/Heart.gif" height="200px" width="200px" alt="">   
+                 
+              </div>
+              <div class="col-lg-6 col-md-3 col-sm-2 text-center" >
+                  <h2 style="display: inline-block; font-family: cursive; color:#C70039 ;" class="text-center firstname">Enter Your Name</h2>
+                <br>  <input type="text" class="in" id="name" placeholder="Your name">
+              </div>
+              
+              <div class="col-lg-6 col-md-3 col-sm-2 text-center" >
+                  <h2 style="display: inline-block; font-family: cursive; color:#C70039 ;" class="text-center secoundname">Enter Partner Name</h2><br>
+                  <input type="text" class="in" id="lovername" placeholder="Partner name">
+                 
+              </div>
+             
+              <div class="col-lg-6 col-md-3 col-sm-2 text-center m-auto">
+                  <br><br>
+                  <button class="btn btn-danger" style="background-color: pink; color:#C70039 ;"  onclick="display()">
+                   Calculate Your Love
+                  </button>
+                 </div>
+          </div>
+          <!-- <div class="col-lg-6 col-md-3 col-sm-2 text-center m-auto"> -->
+              <h2 id="love" style="color:#C70039" class="text-center" >
+                 
+                </h2>
+             <!-- </div> -->
+          <!-- <div class="col-lg-6 col-md-3 col-sm-2 text-center m-auto"> -->
+              <h2 id="love1" style="color:#C70039" class="text-center" >
+                 
+                </h2>
+             <!-- </div> -->
+             <!-- style="position: relative;padding-left: 165px;" -->
+          <!-- <div class="col-lg-6 col-md-3 col-sm-2 text-center m-auto" > -->
+              <!-- <img src="./asserts/Sadness.gif" id="love3" style="border-radius: 15px;" height="100px" width="200px" alt=""> -->
+          <h1 id="love3" style="color:#C70039" class="text-center" >
+
+          </h1>
+             <!-- </div> -->
+      </div>
+      
+        
+    </section>
+  
+     <section id="footer" style="background-color:#fdcfdc;">
+         <div class="contanier" data-aos="fade-down"
+         data-aos-easing="linear"
+         data-aos-duration="1500"><br><br>
+            
+                    <h1 style="color:#C70039; font-family: cursive;" class="text-center" >Love quote of the day</h1>
+                    <p class="text-center" style="font-family: cursive;">
+                       "A man reserves his true and deepest love not for the species of woman in whose company he finds himself
+                        <br>
+                      electrified and enkindled, but for that one in whose company he may feel tenderly drowsy."
+       <br>
+                       -George Jean Nathan        
+               
+                    </p>
+                
+           
+         </div>
+     </section>
+
+     
+     <script>
+      AOS.init();
+    </script>
+     <script>
+       
+       
+              
+        function display()
+        {
+          var x=document.getElementById("my");
+               x.play();
+          var name=document.getElementById("name").value;
+          var lovername=document.getElementById("lovername").value;
+    
+          if(name == ""){
+            alert("please enter name");
+          }
+          else if(name.length<=2){
+            alert("lentgh of name shold be atleast 2");
+          }
+          else if(!isNaN(name)){
+            alert("Numbers are not allowed");
+          }
+          else if(lovername == ""){
+            alert("please enter your Partners name");
+          }
+          else if(lovername.length<=2){
+            alert("lentgh of name should be atleast 2");
+          }
+          else if(!isNaN(lovername)){
+            alert("Numbers are not allowed");
+          }
+          else if(name === lovername){
+            alert("YOUR Name and Your partners Name should be unique");
+          }
+           else{
+            
+            var result=Math.floor(Math.random()*100);
+            
+           document.getElementById("love").innerHTML=lovername+" " +" loves  "+" " +name;
+           document.getElementById("love1").innerHTML=result +"%";
+          
+            if(result<=25)
+             {
+              
+              // document.getElementById("love3").style.display="block";
+              // document.getElementById("love3").setAttribute("src","./asserts/sosad.gif");
+              document.getElementById("love3").innerHTML="You need to use Tinder";
+             } 
+            else if(result>25 && result<=50)
+             {
+              
+              // document.getElementById("love3").style.display="block";
+              // document.getElementById("love3").setAttribute("src","./asserts/s1.gif");
+              document.getElementById("love3").innerHTML="Work hard your Relationship";
+
+             } 
+            else if(result>75 && result<=80)
+             {
+              
+              // document.getElementById("love3").style.display="block";
+              // document.getElementById("love3").setAttribute("src","./asserts/s2.gif");
+              document.getElementById("love3").innerHTML="That's Great!!!";
+
+             } 
+            else{
+              
+              // document.getElementById("love3").style.display="block";
+              // document.getElementById("love3").setAttribute("src","./asserts/yehh.gif");
+              document.getElementById("love3").innerHTML="Soulmates";
+
+            }
+           }
+           
+        }
+       </script>
+     
+     
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
